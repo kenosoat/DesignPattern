@@ -3,35 +3,10 @@
 #### 介绍
 总结互联网相关的设计模式组合，以及常见业务使用相应的设计模式搭配来实现代码的解耦，如工厂加策略，状态加观察者，责任链，迭代器等实现以及他们的互联网使用场景。
 
-#### 软件架构
-软件架构说明
-
-
-#### 安装教程
-
-1.  xxxx
-2.  xxxx
-3.  xxxx
-
-#### 使用说明
-
-1.  xxxx
-2.  xxxx
-3.  xxxx
-
-#### 参与贡献
-
-1.  Fork 本仓库
-2.  新建 Feat_xxx 分支
-3.  提交代码
-4.  新建 Pull Request
-
-
-#### 特技
-
-1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2.  Gitee 官方博客 [blog.gitee.com](https://blog.gitee.com)
-3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解 Gitee 上的优秀开源项目
-4.  [GVP](https://gitee.com/gvp) 全称是 Gitee 最有价值开源项目，是综合评定出的优秀开源项目
-5.  Gitee 官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6.  Gitee 封面人物是一档用来展示 Gitee 会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+#### 应用
+| 设计模式 | 应用场景 |
+| --- | --- |
+| 工厂策略 | 支付场景，业务接口有多种方式处理|
+| 状态观察 | 订单状态，业务存在状态转化|
+| 责任链模式 | 投放、文件处理、审批场景，业务有较长的处理链条，可将处理流程拆封成不同的责任点，并且后续扩展优秀 |
+| 迭代器模式 | ES查询大批量数据分页查询场景，特点是不能进行页面任意跳转，必须依赖前一次查询|
