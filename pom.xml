@@ -12,6 +12,7 @@
         <module>FactoryStrategy</module>
         <module>StateObserver</module>
         <module>ResponsibilityChain</module>
+        <module>DecoratorFlyweight</module>
     </modules>
     <parent>
         <artifactId>spring-boot-starter-parent</artifactId>

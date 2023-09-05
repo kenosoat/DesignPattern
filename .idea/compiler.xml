@@ -10,11 +10,13 @@
         <module name="StateObserver" />
         <module name="FactoryStrategy" />
         <module name="ResponsibilityChain" />
+        <module name="DecoratorFlyweight" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="DecoratorFlyweight" options="-parameters" />
       <module name="FactoryStrategy" options="-parameters" />
       <module name="ResponsibilityChain" options="-parameters" />
       <module name="StateObserver" options="-parameters" />
