@@ -13,6 +13,7 @@
         <module>StateObserver</module>
         <module>ResponsibilityChain</module>
         <module>DecoratorFlyweight</module>
+        <module>BuilderPrototype</module>
     </modules>
     <parent>
         <artifactId>spring-boot-starter-parent</artifactId>

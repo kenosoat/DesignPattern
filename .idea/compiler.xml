@@ -7,6 +7,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="BuilderPrototype" />
         <module name="StateObserver" />
         <module name="FactoryStrategy" />
         <module name="ResponsibilityChain" />
@@ -16,6 +17,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="BuilderPrototype" options="-parameters" />
       <module name="DecoratorFlyweight" options="-parameters" />
       <module name="FactoryStrategy" options="-parameters" />
       <module name="ResponsibilityChain" options="-parameters" />
