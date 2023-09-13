@@ -1,7 +1,6 @@
 package com.design.pay.facade;
 
 import com.design.pay.decorator.AbstractPayDecorator;
-import com.design.pay.decorator.PointsPayDecorator;
 import com.design.pay.factory.PayStrategyFactory;
 import com.design.pay.factory.PointsPayFactory;
 import com.design.pay.strategy.PayStrategy;

@@ -1,6 +1,5 @@
 package com.design.pay.facade;
 
-import com.design.pay.constant.PayType;
 import com.design.pay.factory.PayStrategyFactory;
 import com.design.pay.strategy.PayStrategy;
 import com.design.pojo.Order;

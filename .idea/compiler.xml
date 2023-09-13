@@ -12,6 +12,7 @@
         <module name="FactoryStrategy" />
         <module name="ResponsibilityChain" />
         <module name="DecoratorFlyweight" />
+        <module name="Template" />
       </profile>
     </annotationProcessing>
   </component>
@@ -22,6 +23,7 @@
       <module name="FactoryStrategy" options="-parameters" />
       <module name="ResponsibilityChain" options="-parameters" />
       <module name="StateObserver" options="-parameters" />
+      <module name="Template" options="-parameters" />
     </option>
   </component>
 </project>

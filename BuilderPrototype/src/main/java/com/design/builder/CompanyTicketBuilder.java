@@ -2,7 +2,6 @@ package com.design.builder;
 
 import com.design.constants.TicketConstant;
 import com.design.pojo.CompanyTicket;
-import org.springframework.stereotype.Component;
 
 public class CompanyTicketBuilder extends TicketBuilder<CompanyTicket>{
 
