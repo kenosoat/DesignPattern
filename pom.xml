@@ -15,6 +15,7 @@
         <module>DecoratorFlyweight</module>
         <module>BuilderPrototype</module>
         <module>Template</module>
+        <module>Iterator</module>
     </modules>
     <parent>
         <artifactId>spring-boot-starter-parent</artifactId>
