@@ -16,6 +16,7 @@
         <module>BuilderPrototype</module>
         <module>Template</module>
         <module>Iterator</module>
+        <module>CompositeVisitor</module>
     </modules>
     <parent>
         <artifactId>spring-boot-starter-parent</artifactId>
